@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><Elena Sánchez/></title>
+   <!--- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!--la cabezera de la pagina-->
+    <header>
+      <div class="header"> 
+        <img src="img/logoTrainee.png" class="logo" alt="logo">
+            <nav class="menu">
+                <div id="menuDesktop">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+                <div id="menuMobile">
+                    <div id="burguer">
+                        <span class="linea1"></span>
+                        <span class="linea2"></span>
+                        <span class="linea3"></span>
+                    </div>
+                    <div>
+                      <a href="#inicio">Inicio</a>
+                      <a href="#contacto">Contacto</a>
+                    </div>
+                </div>       
+            </nav>
+      </div>        
+    </header>  
+     <!--Aca vamos a crear las secciones de la pagina-->
+    <main>
+
+        <section  id="inicio" class="inicio">
+           <!-- <img class="logoAvatar" src="img/ fotoElena.jpg" height="200" width="200" title="Avatar Elena" alt="avater_Elena">-->
+           <img class="logoAvatar" src="img/ fotoElena.jpg" title="Foto Elena" alt="avater_Elena"> 
+           <div class="presentacion">
+                <h1>Hola!..Soy Elena</h1> 
+                <h4>Trainner Developer</h4>  
+                <p class="inicioP">Soy técnico universitario en Informatica, mi objetivo es profundizar en la comprensión de las soluciones a los problemas y aplicar mis conocimientos de manera efectiva. Me gusta trabajar en equipo y estoy  comprometida en adquirir y compartir nuevos conocimientos para seguir  mejorando en mi carrera profesional.</p> 
+                <button class="button"><a id="botonDescarga" href="document/CurriculumElenaSanchezB.pdf"  class="botonDescarga" download="Archivo Descargado" title="Descarga de CurriculumElenaSanchezB">Descargar CV</a></button>
+           </div>
+        </section>  
+        <section id="contacto" class="contacto">
+            
+            <article class="hablemos">
+                <h2>Hablemos!</h2> 
+                <p class="hablemosP"> Conoce mi perfil profesional. Contáctame a través de mi correo electrónico.</p>
+            </article>
+        </section>  
+        <!--Los menus de contactos-->
+        <div class="box">
+            <div id="correo">
+                <a href="mailto:isast1984@gmail.com" target="_blank"><img class="imgBox" src="img/mail.png" alt="Email" title="Email"></a>
+            </div>
+            <div id="github">
+                <a href="https://github.com/dapwar" target="_blank"><img class="imgBox" src="img/github.png" alt="github" title="github"></a>
+            </div>
+            <div id="linkedin">
+                <a href="www.linkedin.com/in/elena-isabel-sanchez-tapia-398350203" target="_blank"><img class="imgBox" src="img/linkedin.png" alt="linkedin" title="linkedin"></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h3>Codigo Latam</h3>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
